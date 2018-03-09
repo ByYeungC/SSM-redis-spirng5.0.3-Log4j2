@@ -1,0 +1,14 @@
+2018-03-09 16:02:56 [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@158d2680, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77847718, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7f3b84b8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57a3af25]
+2018-03-09 16:02:56 [main] Loading XML bean definitions from URL [file:/Users/mr.yeungc/workspace/zezon/workspace%20of%20eclipse/SSM-redis-spirng5.0.3-Log4j2/target/classes/config/springmvc.xml]
+2018-03-09 16:02:57 [main] Loading XML bean definitions from URL [file:/Users/mr.yeungc/workspace/zezon/workspace%20of%20eclipse/SSM-redis-spirng5.0.3-Log4j2/target/classes/config/applicationContext-redis.xml]
+2018-03-09 16:02:57 [main] Loading XML bean definitions from URL [file:/Users/mr.yeungc/workspace/zezon/workspace%20of%20eclipse/SSM-redis-spirng5.0.3-Log4j2/target/classes/config/applicationContext-dao.xml]
+2018-03-09 16:02:57 [main] Loading XML bean definitions from URL [file:/Users/mr.yeungc/workspace/zezon/workspace%20of%20eclipse/SSM-redis-spirng5.0.3-Log4j2/target/classes/config/SqlMapConfig.xml]
+2018-03-09 16:02:59 [main] Loading XML bean definitions from URL [file:/Users/mr.yeungc/workspace/zezon/workspace%20of%20eclipse/SSM-redis-spirng5.0.3-Log4j2/target/classes/config/applicationContext-redis.xml]
+2018-03-09 16:02:59 [main] Refreshing org.springframework.context.support.GenericApplicationContext@1165b38: startup date [Fri Mar 09 16:02:59 CST 2018]; root of context hierarchy
+2018-03-09 16:03:00 [main] Mapped "{[/demo/index]}" onto public java.lang.String com.zezon.mail.controller.DemoController.index()
+2018-03-09 16:03:00 [main] Mapped "{[/demo/all]}" onto public org.springframework.web.servlet.ModelAndView com.zezon.mail.controller.DemoController.all()
+2018-03-09 16:03:00 [main] Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1165b38: startup date [Fri Mar 09 16:02:59 CST 2018]; root of context hierarchy
+2018-03-09 16:03:01 [main] Looking for @ControllerAdvice: org.springframework.context.support.GenericApplicationContext@1165b38: startup date [Fri Mar 09 16:02:59 CST 2018]; root of context hierarchy
+2018-03-09 16:03:01 [main] Mapped "{[/demo/index]}" onto public java.lang.String com.zezon.mail.controller.DemoController.index()
+2018-03-09 16:03:01 [main] Mapped "{[/demo/all]}" onto public org.springframework.web.servlet.ModelAndView com.zezon.mail.controller.DemoController.all()
+2018-03-09 16:03:02 [Thread-3] Closing org.springframework.context.support.GenericApplicationContext@1165b38: startup date [Fri Mar 09 16:02:59 CST 2018]; root of context hierarchy

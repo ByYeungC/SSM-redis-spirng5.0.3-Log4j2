@@ -16,6 +16,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.zezon.mail.service.UserService;
 
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
+
 
 
 /**  
@@ -52,4 +55,28 @@ import com.zezon.mail.service.UserService;
         System.out.println(str);
     }
 
+    @Test
+    public void testjson() {
+        //定义一个json对象
+        JSONObject jo = new JSONObject();
+        jo.put("id", "1");
+        jo.put("name", "yang");
+        jo.put("age", "13");
+
+        //定义一个Json数组
+        JSONArray ja = new JSONArray();
+        ja.add(0, "yang");
+        ja.add(1,"li");
+        ja.add(2, "zhang");
+
+        System.out.println("json对象的格式："+jo);
+        System.out.println("json数组的格式："+ja);
+
+        //使用类自带的方法来转换成String类型
+        String str_ = jo.toString();
+        String strs_ = ja.toString();
+
+        System.out.println("json对象-->String"+str_);
+        System.out.println("json数组-->String"+strs_);
+    }
 }

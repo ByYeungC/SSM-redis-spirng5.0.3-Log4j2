@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body> 
-</table>
+
 <table width="100%" border=1>
 <tr>
 	<td>用户名</td>
@@ -21,7 +21,7 @@
 </c:forEach>
 
 </table>
-</form>
+
 </body>
 
 </html>
